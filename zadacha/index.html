@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta name="description" content="Lorem Ipsum">
+    <meta name="keywords" content="Lorem Ipsum, Lorem Ipsum, Lorem Ipsum">
+    <meta name="author" content="Lorem Ipsum">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/css.css" media="all" type="text/css">
+    <link rel="shortcut icon" href="images/logo.svg" type="images/logo.svg">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<title>Task</title>
+</head>
+<body>
+<!-- start header -->
+<header class="header">
+  <!-- start container-fluid start -->
+  <div class="container-fluid">
+  <!-- start navbar -->
+        <nav class="navbar">
+        <!-- start pages -->
+            <a href="index.html" class="nav-logo"><img src="images/logo.svg" title="Logo" alt="Logo"></a>
+            <ul class="nav-menu nav-pills">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+        <!-- end pages -->
+        <!-- start form language -->
+                <form action="/action_page.php">
+                 <select name="language" id="language-header">
+                  <option value="bulgarian">Bulgarian</option>
+                  <option value="english">English</option>
+                 </select>
+                </form>
+        <!-- end form language -->
+            </ul>
+        <!-- start hamburger-menu -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        <!-- end hamburger menu -->
+        </nav>
+  <!-- end navbar -->
+  </div>
+  <!-- end container-fluid -->
+</header>
+<!-- end header -->
+<!-- start section slider-corousel -->
+<section id="slider-carousel">
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+  </div>
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/1900/900" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1900/900" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1900/900" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  <!-- end The slideshow/carousel -->
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <!-- end Left and right controls/icons -->
+ </div>
+</section>
+<!-- end section slider-corousel -->
+<!-- start section about -->
+<section id="section-about">
+ <div class="container">
+   <div class="row">
+     <div class="col-xl-6">
+      <!-- about title -->
+      <div class="title-center text-center text-uppercase">
+       <h1>About Us</h1>
+      </div>
+      <!-- end about title-->
+      <!-- logo content -->
+      <div class="logo-content text-center">
+        <div class="logo-inner rounded-circle">
+       <img src="images/logo.svg" title="Logo" alt="Logo">
+        </div>
+      </div>
+      <!-- end logo content-->
+      <!-- start content  -->
+       <div class="content">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+       </div>
+      <!-- end content -->
+      </div>
+     <div class="col-xl-6">
+      <!-- map -->
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46361.39579221322!2d28.308846029869713!3d43.42745000705534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4e88bbdcffb8b%3A0xdf14a03a1fad32e3!2zOTY1MCDQmtCw0LLQsNGA0L3QsA!5e0!3m2!1sbg!2sbg!4v1650317556289!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <!-- end map -->
+     </div>
+   </div>
+ </div>
+</section>
+<!-- end section about -->
+<!-- Start section our work -->
+<section id="work">
+<div class="container">
+ <div class="row">
+    <div class="col-md-12">
+      <!-- title our work -->
+       <h2 class="text-center text-uppercase mb-5">Our Work</h2>
+      <!-- end title work -->
+     </div>
+     <div class="col-md-12 col-tabs">
+      <!-- start nav tab -->
+      <ul class="nav nav-tab-i nav-pills mb-3" id="pills-tab" role="tablist">
+       <li class="nav-item" role="presentation">
+       <button class="nav-link nav-tabs active" id="project-1-tab" data-bs-toggle="pill" data-bs-target="#project-1" type="button" role="tab" aria-controls="project-1" aria-selected="true">Project 1</button>
+       </li>
+       <li class="nav-item" role="presentation">
+       <button class="nav-link nav-tabs" id="project-2-tab" data-bs-toggle="pill" data-bs-target="#project-2" type="button" role="tab" aria-controls="project-2" aria-selected="false">Project 2</button>
+       </li>
+       <li class="nav-item" role="presentation">
+       <button class="nav-link nav-tabs" id="project-3-tab" data-bs-toggle="pill" data-bs-target="#project-3" type="button" role="tab" aria-controls="project-3" aria-selected="false">Project 3</button>
+       </li>
+      </ul>
+      <!-- end nav tab -->
+      <!-- start project 1 tab-content gallery-lightbox first -->
+      <div class="tab-content" id="pills-tabContent">
+       <div class="tab-pane fade show active" id="project-1" role="tabpanel" aria-labelledby="project-1-tab">
+        <div id="gallery-lightbox" class="row row-first-gallery-lightbox" data-toggle="modal" data-target="#exampleModal">
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Second slide" data-target="#carouselExample" data-slide-to="1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Third slide" data-target="#carouselExample" data-slide-to="2">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
+          </div>
+    </div>
+      <!-- end project 1 tab-content gallery-lightbox first -->
+      <!-- start project 1 tab-content gallery-lightbox second -->
+    <div id="gallery-lightbox" class="row row-second-gallery-lightbox" data-toggle="modal" data-target="#exampleModal">
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Second slide" data-target="#carouselExample" data-slide-to="1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Third slide" data-target="#carouselExample" data-slide-to="2">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
+          </div>
+    </div>
+      <!-- start project 1 tab-content gallery-lightbox second -->
+      <!-- start carousel modal project 1 tab content gallery-lightbox -->
+        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+         <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content bg-transparent">
+        <div class="modal-body p-0">
+          <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Fourth slide">
+              </div>
+            </div>
+              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+             <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+             </a>
+           </div>
+         </div>
+       </div>
+      </div>
+    <!-- end carousel modal project 1 tab content gallery-lightbox -->  
+    </div>
+    <!-- start project 2 tab-content gallery-lightbox first -->
+    <div class="tab-pane fade" id="project-2" role="tabpanel" aria-labelledby="project-2-tab">
+         <div id="gallery-lightbox" class="row row-first-gallery-lightbox" data-toggle="modal" data-target="#exampleModal">
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Second slide" data-target="#carouselExample" data-slide-to="1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Third slide" data-target="#carouselExample" data-slide-to="2">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
+          </div>
+         </div>
+    <!-- end project 2 tab-content gallery-lightbox first -->
+    <!-- start project 2 tab-content gallery-lightbox second -->
+         <div id="gallery-lightbox" class="row row-second-gallery-lightbox" data-toggle="modal" data-target="#exampleModal">
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Second slide" data-target="#carouselExample" data-slide-to="1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Third slide" data-target="#carouselExample" data-slide-to="2">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
+          </div>
+         </div>
+    <!-- end project 2 tab-content gallery-lightbox second -->
+    <!-- start carousel modal project 2 tab content gallery-lightbox -->  
+        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+         <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+   <div class="modal-dialog modal-lg" role="document">
+       <div class="modal-content bg-transparent">
+         <div class="modal-body p-0">
+           <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+           </div>
+         </div>
+       </div>
+      </div>
+    <!-- end carousel modal project 2 tab content gallery-lightbox -->  
+    </div>
+    <!-- start project 3 tab-content gallery-lightbox first -->
+    <div class="tab-pane fade" id="project-3" role="tabpanel" aria-labelledby="project-3-tab">
+      <div id="gallery-lightbox" class="row row-first-gallery-lightbox" data-toggle="modal" data-target="#exampleModal">
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Second slide" data-target="#carouselExample" data-slide-to="1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Third slide" data-target="#carouselExample" data-slide-to="2">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
+          </div>
+        </div>
+         <!-- end project 3 tab-content gallery-lightbox first -->
+        <!-- start project 3 tab-content gallery-lightbox second -->
+        <div id="gallery-lightbox" class="row row-second-gallery-lightbox" data-toggle="modal" data-target="#exampleModal">
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Second slide" data-target="#carouselExample" data-slide-to="1">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Third slide" data-target="#carouselExample" data-slide-to="2">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+           <img class="w-100" src="https://picsum.photos/1900/900" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
+          </div>
+        </div>
+         <!-- end project 3 tab-content gallery-lightbox second -->
+         <!-- start carousel modal project 3 tab content gallery-lightbox -->  
+        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+         <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content bg-transparent">
+            <div class="modal-body p-0">
+             <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/1900/900" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+           </div>
+          </div>
+         </div>
+       </div>
+       <!-- end carousel modal project 2 tab content gallery-lightbox -->  
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<!-- End section our work --> 
+
+<!-- Start section our products -->
+<section id="section-products">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+      <!-- title our products -->
+      <h2 class="text-center text-uppercase mb-5">Our products</h2>
+      <!-- end title our products-->
+    </div>
+     <div class="col-md-12 col-12">
+      <div class="d-b-m d-flex align-items-start ">
+        <!-- start tab projects -->
+       <div class="nav flex-column nav-pills me-3 nav-b col-md-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-project-1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project-1" type="button" role="tab" aria-controls="v-pills-project-1" aria-selected="true">Project 1</button>
+        <button class="nav-link" id="v-pills-project-2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project-2" type="button" role="tab" aria-controls="v-pills-project-2" aria-selected="false">Project 2</button>
+        <button class="nav-link" id="v-pills-project-3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project-3" type="button" role="tab" aria-controls="v-pills-project-3" aria-selected="false">Project 3</button>
+       </div>
+       <!-- end tab projects -->
+    <div class="tab-content col-md-11" id="v-pills-tabContent">
+      <!-- start tab content project 1-->
+     <div class="tab-pane tab-b fade show active" id="v-pills-project-1" role="tabpanel" aria-labelledby="v-pills-project-1-tab">
+      <div class="row">
+       <div class="col-xl-4 col-tab-img">
+        <!-- img project 1 -->
+        <img src="https://picsum.photos/300/300">
+        <!-- end img project 1 -->
+      </div>
+       <div class="col-xl-8 col-content-product">
+        <!-- title project 1 -->
+        <h3 class="mb-4">Product 1</h3>
+        <!-- end title project 1 -->
+        <!-- content project 1 -->
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <!-- end content project 1 -->
+       </div>
+      </div>
+     <div class="row">
+      <div class="col-md-12 col-12">
+        <!-- table project 1 -->
+        <table class="table">
+         <tr>
+          <th>Parameters</th>
+          <th>Value</th>
+         </tr>
+         <tr>
+          <td>Param 1</td>
+          <td>Green</td>
+         </tr>
+         <tr>
+           <td>Param 2</td>
+           <td>Blue</td>
+         </tr>
+           <tr>
+           <td>Param 3</td>
+           <td>Red</td>
+         </tr>
+         <tr>
+           <td>Param 4</td>
+           <td>Yellow</td>
+         </tr>
+          </table>
+          <!-- end table project 1 -->
+      </div>
+     </div>
+    </div>
+    <!-- end tab content project 1-->
+    <!-- start tab content project 2-->
+    <div class="tab-pane fade" id="v-pills-project-2" role="tabpanel" aria-labelledby="v-pills-project-2-tab">
+       <div class="row">
+        <div class="col-xl-4 col-tab-img">
+        <!-- img project 2 -->
+        <img src="https://picsum.photos/300/300">
+        <!-- end img project 2 -->
+       </div>
+       <div class="col-xl-8 col-content-product">
+        <!-- title project 2 -->
+        <h3 class="mb-4">Product 2</h3>
+        <!-- end title project 2 -->
+        <!-- start content project 2 -->
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <!-- end content project 2 -->
+       </div>
+      </div>
+     <div class="row">
+      <div class="col-md-12">
+        <!-- table project 2 -->
+        <table class="table">
+         <tr>
+          <th>Parameters</th>
+          <th>Value</th>
+         </tr>
+         <tr>
+          <td>Param 1</td>
+          <td>Green</td>
+         </tr>
+         <tr>
+           <td>Param 2</td>
+           <td>Blue</td>
+         </tr>
+           <tr>
+           <td>Param 3</td>
+           <td>Red</td>
+         </tr>
+         <tr>
+           <td>Param 4</td>
+           <td>Yellow</td>
+         </tr>
+          </table>
+        <!--end table project 2 -->
+      </div>
+     </div>
+   </div>
+  <!-- end tab content project 2-->
+  <!-- start tab content project 3-->
+  <div class="tab-pane fade" id="v-pills-project-3" role="tabpanel" aria-labelledby="v-pills-project-3-tab">
+       <div class="row">
+        <div class="col-xl-4 col-tab-img">
+        <!-- img project 3 -->
+        <img src="https://picsum.photos/300/300">
+        <!-- end img project 3 -->
+       </div>
+       <div class="col-xl-8 col-content-product">
+        <!-- title project 3 -->
+        <h3 class="mb-4">Product 3</h3>
+        <!-- end title project 3 -->
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+       </div>
+      </div>
+     <div class="row">
+        <div class="col-md-12">
+          <!--start table project 3 -->
+        <table class="table">
+         <tr>
+          <th>Parameters</th>
+          <th>Value</th>
+         </tr>
+         <tr>
+          <td>Param 1</td>
+          <td>Green</td>
+         </tr>
+         <tr>
+           <td>Param 2</td>
+           <td>Blue</td>
+         </tr>
+           <tr>
+           <td>Param 3</td>
+           <td>Red</td>
+         </tr>
+         <tr>
+           <td>Param 4</td>
+           <td>Yellow</td>
+         </tr>
+          </table>
+          <!--end table project 3 -->
+        </div>
+       </div>
+      </div>
+      <!-- end tab content project 3-->
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<!-- End section our products -->  
+<!-- start section contact -->  
+<section id="section-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-12 mb-5 col-title-contact text-center">
+        <!-- title contact us -->
+        <h3 class="text-uppercase text-center">Contact Us</h3>
+        <!-- end title contact us -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 col-form">
+        <!-- start contact form -->
+        <form action="email.php" method="POST">
+           <label for="lname" class="form-label">Email</label>
+            <input type="email"  name="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email..">
+           <label for="message" class="form-label">Message</label>
+            <textarea  name="message" placeholder="Your Message" style="height:200px" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <input type="submit" value="submit" class="submit">
+        </form>
+        <!-- end contact form -->
+      </div>
+      <div class="col-xl-1 col-empty">
+      </div>
+      <div class="col-xl-5 col-right-check">
+        <!-- start check list -->
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+        <!-- end check list -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section contact -->
+<!-- start footer -->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center mb-0">Developed by <span>ADI DESIGN</span></p>
+      </div>
+    </div>
+  </div>
+</footer>    
+<!-- end footer --> 
+<!-- hamburger menu js -->
+<script type="text/javascript">
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+hamburger.addEventListener("click", mobileMenu);
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+</script>
+<!-- end hamburger menu js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>      
+<script src="https://kit.fontawesome.com/3fe3c9ddbf.js"></script>   
+</body>
+</html>
+          

@@ -1,0 +1,331 @@
+* {
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+     overflow-x: hidden;
+     font-family: 'Libre Baskerville', serif;   
+}
+/* header */
+.header {
+    background:#1c2832 !important;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 1.5rem;
+    z-index: 111111;
+}
+.hamburger {
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li a {
+    font-size:15px;
+}
+.nav-item {
+    margin:0 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #83c7ee !important;
+    background-color: transparent !important;
+    border-bottom: 5px solid #83c7ee;
+    border-radius: 0px;
+}
+.nav-link {
+    color:#fff !important;
+    padding:10px 0px !important;
+}
+.nav-link:hover{
+    color: #482ff7;
+}
+.nav-logo img {
+    width:35%;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+#language-header {
+    margin-left:30px;
+}
+/* end header */
+/* carousel */
+.carousel-indicators [data-bs-target] {
+    height: 15px !important;
+    width: 15px !important;
+    margin: 0px 5px;
+    opacity: 1 !important;
+}
+.carousel-indicators .active {
+    background-color: #83c7ee !important;  
+}
+/* end carousel */
+/* section-about, section-products, section-contact, section-work */
+#section-about, #section-products, #section-contact {
+    padding:100px 0;
+}
+#work {
+    padding:0px 0 100px 0;
+}
+#section-contact {
+    background: url(https://picsum.photos/1900/1900);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* end section-about, section-products, section-contact, section-work */
+/* logo-content */
+.logo-content {
+    display: flex;
+    justify-content: center;
+}
+.logo-inner {
+    width: 150px;
+    height: 150px;
+    background:#1c2832;
+    border:5px solid #83c7ee;
+    padding: 30px;
+    margin:30px 0;
+    display: flex;
+    justify-content: center;
+}
+/* end logo-content */
+/* content about */
+.content p {
+    text-align:justify;
+}
+/* map about */
+.map iframe {
+    width:100%;
+}
+/* end map about */
+/* end content about */
+/* tab nav */
+.nav-pills .nav-tabs {
+    color:#000 !important;
+}
+.nav-tab-i {
+    flex-wrap: nowrap !important;
+    justify-content:space-between;
+}
+.nav-tab-i li, .nav-tab-i .nav-tabs {
+    width:100%;
+}
+.nav-tab-i li {
+    margin: 0 0px !important;
+}
+#pills-tabContent {
+    padding:3.5rem;
+}
+#gallery-lightbox {
+   --bs-gutter-x: 3.5rem;
+   margin-bottom:3.5rem;
+}
+.modal button.close {
+   right: 0;
+   outline: 0;
+}
+#gallery-lightbox img {
+   height: 250px;
+   object-fit: cover;
+   cursor: pointer;
+}
+#gallery-lightbox img:hover {
+   opacity: 0.9;
+   transition: 0.5s ease-out;
+}
+.nav-b button {
+   color:#000 !Important;
+   padding-left: 10px !important;
+   margin-bottom: 10px;
+}
+.nav-b .nav-link.active {
+   border-left: 5px solid #83c7ee !important;
+   border-bottom:0px solid #83c7ee !important;
+}
+.tab-b {
+   padding:0 2rem;
+}
+.table {
+   width:100%;
+   margin-top:60px;
+}
+.table>:not(caption)>*>* {
+   border: 1px solid #000 !important;
+}
+.col-content-product p {
+   text-align: justify;
+}
+/* end tab nav */
+/* contact section */
+.col-title-contact h3 {
+   display: inline-block;
+   background: #fff;
+   padding: 15px 20px;
+}
+.col-form {
+    background: #fff;
+    padding: 25px 30px 45px 30px !important;
+}
+.form-label {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit {
+    width: 100%;
+    background: #1c2832;
+    color: #fff;
+    padding: 15px 0px;
+    border-radius: 0.5em;
+    border:0px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 1s ease-out;
+}
+.submit:hover {
+    background: #83c7ee;
+    color: #1c2832;   
+}
+.col-right-check {
+    background:#fff;
+    padding: 25px 30px 45px 30px !important;
+}
+.col-right-check i {
+    margin-right: 30px;
+}
+/* end contact section */
+/* footer */
+#footer {
+    padding:20px 20px;
+    background: #1c2832;
+
+}
+#footer .container .row .col-12 p {
+    color:#fff;
+    font-size:25px;
+    font-weight:bold;
+}
+#footer .container .row .col-12 p span {
+    color:#83c7ee;
+}
+/* end footer */
+
+@media screen and (max-width:1024px) {
+.col-tab-img {
+    text-align: center;
+}
+.col-content-product {
+    margin-top: 50px !important;
+}
+.col-right-check {
+    margin-top:50px !important;
+}
+.map {
+    margin-top:20px;
+}
+}
+/* mobile version */
+@media only screen and (max-width: 993px) {
+/* nav mobile version */
+.navbar {
+    flex-wrap: nowrap !important;
+}
+.nav-menu {
+    padding: 70px 0;
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color:#1c2832;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+.nav-menu.active {
+    z-index: 111111;
+    left: 0;
+    top:124px;
+}
+.nav-item {
+    margin: 10px 20px;
+}
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+#language-header {
+    margin-top:15px;
+    margin-left:0px;
+}
+/* end nav mobile version */
+/* carousel mobile version */
+.carousel-item img {
+    min-height: auto;
+}
+.carousel-item img {
+    min-height: auto;
+}
+/* end carousel mobile version */
+/* nav tab mobile version */
+.nav-tab-i {
+    display:block !important;
+}
+#gallery-lightbox {
+    margin-bottom: 0rem;
+}
+.row-first-gallery-lightbox .col-12 img, .row-second-gallery-lightbox .col-12 img {
+    margin-bottom:3.5rem;
+}
+.nav-b {
+    width:100% !important;
+    margin-right:0px !important;
+}
+/* end nav tab mobile version */
+/* section products mobile version */
+#section-products .d-b-m {
+    display: block !important;
+    width: 100% !important;
+}
+.tab-content {
+    width: 100% !important;
+    margin-top: 30px;
+}
+   .tab-b {
+    padding: 0 0rem;
+}
+/* end section products mobile version */
+}
+@media screen and (max-width:600px) {
+#section-contact .container {
+    padding:0 25px;
+}
+.col-tab-img img {
+    width:100%;
+   }
+}
+/* end mobile version */
